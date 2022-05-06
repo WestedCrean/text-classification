@@ -1,0 +1,8 @@
+.python-version
+model.png
+
+.ipynb_checkpoints/**
+data/**
+__pycache__/**
+*.pyc
+*.pyo
