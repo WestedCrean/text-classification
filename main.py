@@ -48,8 +48,8 @@ print("Y")
 print(y)
 model = xgboost.XGBClassifier()
 
-#print("Training model")
+print("Training model")
 
-#scores = model_selection.cross_val_score(model, X, y, cv=10, scoring='f1_macro')
+scores = model_selection.cross_val_score(model, X, y, cv=10, scoring='f1_macro')
 
-#print("%0.2f accuracy with a standard deviation of %0.2f" % (scores.mean(), scores.std()))
+print("%0.2f accuracy with a standard deviation of %0.2f" % (scores.mean(), scores.std()))
